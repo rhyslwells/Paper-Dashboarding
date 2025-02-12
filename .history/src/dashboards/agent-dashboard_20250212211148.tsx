@@ -132,23 +132,4 @@ const AgentDashboard = () => {
               <h3 className="text-xl font-semibold text-blue-600">Implementation Metrics</h3>
             </div>
             <div className="w-full h-64 bg-gray-200 flex items-center justify-center">
-              <div className="text-center">[Line Chart Placeholder]</div>
-            </div>
-            <div className="mt-6 grid grid-cols-2 gap-6">
-              <div>
-                <h4 className="font-medium text-blue-500">Accuracy Trend</h4>
-                <p className="text-sm text-gray-600">Shows improving accuracy over time</p>
-              </div>
-              <div>
-                <h4 className="font-medium text-green-500">Latency Trend</h4>
-                <p className="text-sm text-gray-600">Shows decreasing latency over time</p>
-              </div>
-            </div>
-          </div>
-        )}
-      </div>
-    </div>
-  );
-};
-
-export default AgentDashboard;
+         

@@ -6,8 +6,8 @@ import {
   Radar,
   BarChart,
   Bar,
-  PieChart,
-  Pie,
+  DoughnutChart,
+  Doughnut,
   XAxis,
   YAxis,
   CartesianGrid,
@@ -112,11 +112,11 @@ const ModelDashboard = () => {
       <div className="card">
         <h3>Feature Importance</h3>
         <ResponsiveContainer width="100%" height={300}>
-          <PieChart>
+          <DoughnutChart data={featureImportanceData}>
             <Tooltip />
             <Legend />
-            <Pie data={featureImportanceData} dataKey="value" nameKey="name" fill="#8884d8" />
-          </PieChart>
+            <Doughnut dataKey="value" fill="#8884d8" />
+          </DoughnutChart>
         </ResponsiveContainer>
       </div>
 
