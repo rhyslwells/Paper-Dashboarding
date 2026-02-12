@@ -1,4 +1,4 @@
-# Paper Summary Dashboard
+# Paper Summary Dashboard (In Progress)
 
 A React-based dashboard for displaying summaries of individual research papers, with visualizations to help summarize and present key insights from the content. Each paper will have its own dedicated dashboard to showcase its findings and performance metrics.
 
@@ -28,3 +28,4 @@ This dashboard is built with **Vite** and will be hosted on **Vercel** for easy 
 1. **Add Data**: In the `data/` folder, create a new file for the paper's data (e.g., `paper1Data.js`).
 2. **Create Components**: In `components/`, create any additional components needed to display the paper's data.
 3. **Update `App.js`**: Add routing to display the new paper's dashboard or update the existing dashboard to include the new paper's data.
+
